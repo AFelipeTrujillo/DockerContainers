@@ -8,7 +8,8 @@
  
 ### How to run
 ```
-sudo docker run -it -p 9999:9999 -v /symfony/project/path:/usr/src/myapp afelipetrujillo\php-symfony2
+docker pull afelipetrujillo/php-symfony
+sudo docker run -it -p 9999:9999 -v /symfony/project/path:/usr/src/myapp afelipetrujillo/php-symfony
 ```
 Replace **/symfony/project/path** to your local folder where is symfony root path project.
 
